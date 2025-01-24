@@ -9,8 +9,8 @@ describe('GET /', function() {
       .end(function(err, res) {
         if (err) {
           // If there's an error, log it and pass it to the done callback
-          console.error(err);
-          return done(err);
+          console.error(error);
+          return done(error);
         }
         // If everything is fine, invoke the done callback
         done();
